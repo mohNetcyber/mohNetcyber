@@ -33,8 +33,8 @@
 | Projet | Description |
 |---|---|
 | [Smart-Network](https://github.com/mohNetcyber/Smart-Network) | Architecture réseau d'entreprise 3-tiers : OSPF multi-aires, VLAN, DMZ, NAT, BGP inter-AS |
-| [Labs AWS]() | Labs sur les principaux services d'AWS (EC2, Lambda, EBS, ELB, RDS, Beanstalk VPC et IAM)|
-| [SIEM avec Java]() | Développement d'un site de SIEM avec JAVA |
+| [Labs AWS](https://github.com/mohNetcyber/AWS-Education-Labs) | Labs sur les principaux services d'AWS (EC2, Lambda, EBS, ELB, RDS, Beanstalk VPC et IAM)|
+| [SIEM avec Java](https://github.com/mohNetcyber/SIEM-Java) | Développement d'un site de SIEM avec JAVA |
 
 ---
 
