@@ -32,8 +32,6 @@
 | Projet | Description |
 |---|---|
 | [Smart-Network](https://github.com/mohNetcyber/Smart-Network) | Architecture réseau d'entreprise 3-tiers : OSPF multi-aires, VLAN, DMZ, NAT, BGP inter-AS |
-| [exercice-vlan](https://github.com/mohNetcyber/exercice-vlan) | Mise en place VLAN + DHCP sur routeur Cisco |
-| [Chiffrement](https://github.com/mohNetcyber/Chiffrement) | Amélioration du chiffrement de Polybe |
 
 ---
 
