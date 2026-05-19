@@ -13,6 +13,7 @@
 - Virtualisation et déploiement (VMware)
 - Automatisation réseau avec Python
 - Pratiques DevSecOps
+- Parfois du dévéloppement
 
 ---
 
@@ -32,6 +33,8 @@
 | Projet | Description |
 |---|---|
 | [Smart-Network](https://github.com/mohNetcyber/Smart-Network) | Architecture réseau d'entreprise 3-tiers : OSPF multi-aires, VLAN, DMZ, NAT, BGP inter-AS |
+| [Labs AWS]() | Labs sur les principaux services d'AWS (EC2, Lambda, EBS, ELB, RDS, Beanstalk VPC et IAM)|
+| [SIEM avec Java]() | Développement d'un site de SIEM avec JAVA |
 
 ---
 
