@@ -168,7 +168,6 @@ Ces points figurent dans ma feuille de route.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
 
 <td width="50%" valign="top">
 
@@ -180,7 +179,6 @@ Ces points figurent dans ma feuille de route.
 
 </td>
 
-</td>
 <td width="50%" valign="top">
 
 **[DevNet-Netmiko-Paramiko](https://github.com/mohNetcyber/DevNet-Netmiko-Paramiko)**  
