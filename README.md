@@ -5,11 +5,11 @@
 
 <img width="100%" alt="Bannière : Mohamed Traoré, Network, Cloud & Security Engineer in the making" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF9C,100:00D4FF&height=180&section=header&text=Mohamed%20Traor%C3%A9&fontSize=44&fontColor=0D1117&fontAlignY=38&desc=Network%2C%20Cloud%20%26%20Security%20Engineer%20in%20the%20making&descSize=16&descAlignY=60&animation=fadeIn" />
 
-<img alt="Texte animé : Étudiant ingénieur GSCSI à l'ENSA Fès ; Réseaux, Sécurité, Cloud et DevOps ; Détection, supervision, durcissement ; Open to internship SOC / DevSecOps" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=00FF9C&center=true&vCenter=true&width=600&height=45&lines=%C3%89tudiant+ing%C3%A9nieur+GSCSI+%C2%B7+ENSA+F%C3%A8s;R%C3%A9seaux+%C2%B7+S%C3%A9curit%C3%A9+%C2%B7+Cloud+%26+DevOps;D%C3%A9tection+%C2%B7+supervision+%C2%B7+durcissement;Open+to+internship+%E2%80%94+SOC+%2F+DevSecOps" />
+<img alt="Texte animé : Étudiant ingénieur GSCSI à l'ENSA Fès ; Réseaux informatiques, Sécurité, Cloud et DevOps ; Routage BGP/OSPF, détection, supervision ; Open to internship réseaux / SOC / DevSecOps" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=00FF9C&center=true&vCenter=true&width=650&height=45&lines=%C3%89tudiant+ing%C3%A9nieur+GSCSI+%C2%B7+ENSA+F%C3%A8s;R%C3%A9seaux+informatiques+%C2%B7+S%C3%A9curit%C3%A9+%C2%B7+Cloud+%26+DevOps;Routage+BGP%2FOSPF+%C2%B7+d%C3%A9tection+%C2%B7+supervision;Open+to+internship+%E2%80%94+R%C3%A9seaux+%2F+SOC+%2F+DevSecOps" />
 
 <br/>
 
-<img alt="Statut : ouvert à un stage SOC / DevSecOps" src="https://img.shields.io/badge/OPEN_TO_WORK-Stage_SOC_%7C_DevSecOps-00FF9C?style=for-the-badge&labelColor=0D1117" />
+<img alt="Statut : ouvert à un stage réseaux informatiques / SOC / DevSecOps" src="https://img.shields.io/badge/OPEN_TO_WORK-Stage_R%C3%A9seaux_%7C_SOC_%7C_DevSecOps-00FF9C?style=for-the-badge&labelColor=0D1117" />
 <img alt="Localisation : Fès, Maroc" src="https://img.shields.io/badge/Localisation-F%C3%A8s%2C_Maroc-00D4FF?style=for-the-badge&labelColor=0D1117" />
 <img alt="École : ENSA Fès, filière GSCSI" src="https://img.shields.io/badge/ENSA_F%C3%A8s-GSCSI-00D4FF?style=for-the-badge&labelColor=0D1117" />
 <a href="https://www.linkedin.com/in/m-mohamed-traore/"><img alt="Profil LinkedIn de Mohamed Traoré" src="https://img.shields.io/badge/LinkedIn-m--mohamed--traore-00FF9C?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" /></a>
@@ -21,12 +21,13 @@
 ## 👤 À propos
 
 - Étudiant ingénieur **GSCSI** (Systèmes Communicants & Sécurité Numérique) à l'**ENSA Fès**, Maroc.
-- Je cherche un **stage SOC / sécurité réseau / DevSecOps / infrastructure**.
+- Je cherche un **stage réseaux informatiques / sécurité réseau / SOC / DevSecOps / infrastructure**.
 - Stage 2026 au labo **LIASSE** : déploiement et supervision sécurisée d'un mini-cloud privé virtualisé (projet en binôme, détails plus bas).
+- Côté réseaux : conception et simulation d'architectures multi-sites, **routage dynamique (OSPF, BGP)** et **dual-stack IPv4 / IPv6** sous GNS3.
 - Certifié **Cisco CCNA Automation** (2026) et **CyberOps Associate** (2025).
 
-> 🇬🇧 **In short:** engineering student (GSCSI, ENSA Fès) focused on network security, SOC and DevSecOps.
-> I build and monitor small secure infrastructures, and I am looking for an internship in SOC / DevSecOps / network security.
+> 🇬🇧 **In short:** engineering student (GSCSI, ENSA Fès) focused on computer networking, network security, SOC and DevSecOps.
+> I build and monitor small secure infrastructures, and I am looking for an internship in networking / SOC / DevSecOps / network security.
 
 ---
 
@@ -37,6 +38,9 @@
 ![GNS3](https://img.shields.io/badge/GNS3-0D1117?style=flat-square&logoColor=00D4FF)
 ![Packet Tracer](https://img.shields.io/badge/Packet_Tracer-0D1117?style=flat-square&logo=cisco&logoColor=00D4FF)
 ![Wireshark](https://img.shields.io/badge/Wireshark-0D1117?style=flat-square&logo=wireshark&logoColor=00D4FF)
+![BGP (eBGP / iBGP)](https://img.shields.io/badge/BGP_(eBGP_%2F_iBGP)-0D1117?style=flat-square&logoColor=00D4FF)
+![OSPF / OSPFv3](https://img.shields.io/badge/OSPF_%2F_OSPFv3-0D1117?style=flat-square&logoColor=00D4FF)
+![IPv4 / IPv6](https://img.shields.io/badge/IPv4_%2F_IPv6_dual--stack-0D1117?style=flat-square&logoColor=00D4FF)
 
 **Sécurité & SOC**  
 ![Wazuh](https://img.shields.io/badge/Wazuh-0D1117?style=flat-square&logoColor=00FF9C)
@@ -146,6 +150,30 @@ Ces points figurent dans ma feuille de route.
 
 ---
 
+## 🌐 Projet réseau : Lab eBGP / iBGP (IPv4 + IPv6)
+
+![Routage BGP](https://img.shields.io/badge/Routage-BGP-00FF9C?style=for-the-badge&labelColor=0D1117)
+![GNS3](https://img.shields.io/badge/Simul%C3%A9_sous-GNS3-00D4FF?style=for-the-badge&labelColor=0D1117)
+
+**[lab-ebgp-ibgp-gns3](https://github.com/mohNetcyber/lab-ebgp-ibgp-gns3)**  
+*Problème :* maîtriser le routage inter-AS et la façon dont un AS se présente au reste du réseau, en dual-stack.  
+*Solution :* réseau de **3 systèmes autonomes** (AS 65000 / 65001 / 65002) sous **GNS3** (routeurs Cisco c7200, IOU L3 15.2d), documenté et reproductible (configurations par étape, README détaillé, captures).
+
+| Brique | Ce que j'ai mis en œuvre |
+|---|---|
+| IGP | **OSPFv3 par Address-Families** (IPv4 + IPv6 dans un seul processus) pour la joignabilité interne |
+| eBGP | Sessions entre AS (R1–D1, R3–D2), BGP par Address-Families IPv4 et IPv6 |
+| iBGP | **Full-mesh** R1/R2/R3 et **`next-hop-self`** sur les routeurs de bordure |
+| Agrégation | Origination centralisée sur R2 : `172.16.0.0/16` et `2001:db8:a000::/36` (`network` + routes **Null0**) |
+| Politique | AS 65000 passé de **transit à non-transit** avec un filtre **AS-path** (`^$`) en sortie |
+| Vérification | Lecture des tables BGP / RIB, AS-path, distances administratives (20 / 200), tests de joignabilité sources / retours |
+
+`BGP` `eBGP` `iBGP` `OSPFv3` `IPv6` `Cisco IOS` `GNS3`
+
+<sub>Lab inspiré d'un sujet Cisco Networking Academy (parcours CCNP), réalisé et documenté par mes soins.</sub>
+
+---
+
 ## 📦 Autres projets
 
 <table>
@@ -228,7 +256,7 @@ Ces points figurent dans ma feuille de route.
 
 ## 📬 Me contacter
 
-Je cherche un stage **SOC / sécurité réseau / DevSecOps / infrastructure**. Parlons-en.
+Je cherche un stage **réseaux informatiques / sécurité réseau / SOC / DevSecOps / infrastructure**. Parlons-en.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Me_contacter-00FF9C?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](https://www.linkedin.com/in/m-mohamed-traore/)
 [![Email](https://img.shields.io/badge/Email-Écrire-00D4FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:mohamedtraoresan@gmail.com)
