@@ -24,6 +24,7 @@
 - Je cherche un **stage réseaux informatiques / sécurité réseau / SOC / DevSecOps / infrastructure**.
 - Stage 2026 au labo **LIASSE** : déploiement et supervision sécurisée d'un mini-cloud privé virtualisé (projet en binôme, détails plus bas).
 - Côté réseaux : conception et simulation d'architectures multi-sites, **routage dynamique (OSPF, BGP)** et **dual-stack IPv4 / IPv6** sous GNS3.
+- Côté systèmes : déploiement d'un **domaine Active Directory** complet (2 contrôleurs de domaine, GPO, DNS/DHCP/DFS) segmenté en **VLAN** derrière un pare-feu **pfSense**.
 - Certifié **Cisco CCNA Automation** (2026) et **CyberOps Associate** (2025).
 
 > 🇬🇧 **In short:** engineering student (GSCSI, ENSA Fès) focused on computer networking, network security, SOC and DevSecOps.
@@ -41,6 +42,15 @@
 ![BGP (eBGP / iBGP)](https://img.shields.io/badge/BGP_(eBGP_%2F_iBGP)-0D1117?style=flat-square&logoColor=00D4FF)
 ![OSPF / OSPFv3](https://img.shields.io/badge/OSPF_%2F_OSPFv3-0D1117?style=flat-square&logoColor=00D4FF)
 ![IPv4 / IPv6](https://img.shields.io/badge/IPv4_%2F_IPv6_dual--stack-0D1117?style=flat-square&logoColor=00D4FF)
+![VLAN](https://img.shields.io/badge/VLAN_%2F_segmentation-0D1117?style=flat-square&logoColor=00D4FF)
+![pfSense](https://img.shields.io/badge/pfSense-0D1117?style=flat-square&logo=pfsense&logoColor=00D4FF)
+
+**Systèmes & annuaire**  
+![Active Directory](https://img.shields.io/badge/Active_Directory-0D1117?style=flat-square&logo=windows&logoColor=00FF9C)
+![Windows Server 2022](https://img.shields.io/badge/Windows_Server_2022-0D1117?style=flat-square&logo=windows&logoColor=00FF9C)
+![GPO](https://img.shields.io/badge/GPO-0D1117?style=flat-square&logoColor=00FF9C)
+![DNS / DHCP / DFS](https://img.shields.io/badge/DNS_%2F_DHCP_%2F_DFS-0D1117?style=flat-square&logoColor=00FF9C)
+![PowerShell](https://img.shields.io/badge/PowerShell-0D1117?style=flat-square&logo=powershell&logoColor=00FF9C)
 
 **Sécurité & SOC**  
 ![Wazuh](https://img.shields.io/badge/Wazuh-0D1117?style=flat-square&logoColor=00FF9C)
@@ -171,6 +181,30 @@ Ces points figurent dans ma feuille de route.
 `BGP` `eBGP` `iBGP` `OSPFv3` `IPv6` `Cisco IOS` `GNS3`
 
 <sub>Lab inspiré d'un sujet Cisco Networking Academy (parcours CCNP), réalisé et documenté par mes soins.</sub>
+
+---
+
+## 🏢 Projet infrastructure : Active Directory d'entreprise (ad-corpmsi-lab)
+
+![Active Directory](https://img.shields.io/badge/Active_Directory-corpmsi.local-00FF9C?style=for-the-badge&labelColor=0D1117)
+![VMware + pfSense](https://img.shields.io/badge/VMware_Workstation-pfSense-00D4FF?style=for-the-badge&labelColor=0D1117)
+
+**[ad-corpmsi-lab](https://github.com/mohNetcyber/ad-corpmsi-lab)**  
+*Problème :* reproduire l'infrastructure d'une PME (MSI Consulting) avec annuaire, services réseau et isolation entre départements.  
+*Solution :* domaine **corpmsi.local** sur **VMware Workstation Pro**, avec **Windows Server 2022** (2 contrôleurs de domaine, serveur de fichiers), **6 VLAN** routés et filtrés par **pfSense**, et un **proxy filtrant** avec inspection SSL.
+
+| Brique | Ce que j'ai mis en œuvre |
+|---|---|
+| Annuaire | **Active Directory** avec 2 DC (réplication, Global Catalog), OU et utilisateurs créés par script |
+| Services réseau | **DNS** (forwarders, zones inverses), **DHCP** avec failover *hot standby*, **NTP** sur le PDC |
+| Segmentation | **6 VLAN** (Direction, Commercial, Informatique, Serveurs, RH, Comptabilité), DHCP Relay et règles de pare-feu par VLAN |
+| Fichiers | Partages **SMB** et espace de noms **DFS**, permissions NTFS |
+| Politiques | **GPO** par département : mots de passe, durcissement, **BitLocker** |
+| Filtrage web | **Squid + SquidGuard** (blacklist UT1) avec inspection SSL, ACL par VLAN |
+| Exploitation | Scripts **PowerShell**, diagnostic (`dcdiag`, `repadmin`, `w32tm`), cas d'étude de dépannage DNS |
+| Documentation | Rapport complet en **LaTeX**, schéma **draw.io** |
+
+`Active Directory` `Windows Server` `pfSense` `VLAN` `GPO` `DNS` `DHCP` `DFS` `Squid` `PowerShell`
 
 ---
 
