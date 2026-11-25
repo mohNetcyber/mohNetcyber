@@ -189,7 +189,7 @@ Ces points figurent dans ma feuille de route.
 ![Active Directory](https://img.shields.io/badge/Active_Directory-corpmsi.local-00FF9C?style=for-the-badge&labelColor=0D1117)
 ![VMware + pfSense](https://img.shields.io/badge/VMware_Workstation-pfSense-00D4FF?style=for-the-badge&labelColor=0D1117)
 
-**[ad-corpmsi-lab](https://github.com/mohNetcyber/ad-corpmsi-lab)**  
+**[ad-corpmsi-lab](https://github.com/mohNetcyber/Projet-Active-Directory)**  
 *Problème :* reproduire l'infrastructure d'une PME (MSI Consulting) avec annuaire, services réseau et isolation entre départements.  
 *Solution :* domaine **corpmsi.local** sur **VMware Workstation Pro**, avec **Windows Server 2022** (2 contrôleurs de domaine, serveur de fichiers), **6 VLAN** routés et filtrés par **pfSense**, et un **proxy filtrant** avec inspection SSL.
 
